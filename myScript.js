@@ -4,7 +4,7 @@ YUI().use(
     var events = [
       {
         content: 'Meeting',
-        endDate: new Date(2016, 2, 15, 7)
+        endDate: new Date(2016, 2, 15, 7),
         meeting: true,
         startDate: new Date(2016, 2, 15, 3)
        
