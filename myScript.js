@@ -5,7 +5,6 @@ YUI().use(
         
     ];
     var eventRecorder = new Y.SchedulerEventRecorder();
-    var agendaView = new Y.SchedulerAgendaView();
     var dayView = new Y.SchedulerDayView();
   
     var monthView = new Y.SchedulerMonthView();
@@ -19,7 +18,7 @@ YUI().use(
         eventRecorder: eventRecorder,
         items: events,
         render: true,
-        views: [dayView, weekView, monthView, agendaView]
+        views: [dayView, weekView, monthView]
       }
     );
   }
