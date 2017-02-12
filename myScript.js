@@ -2,7 +2,10 @@ YUI().use(
   'aui-scheduler',
   function(Y) {
     var events = [
-     
+      {
+        content: 'Review Session',
+        endDate: new Date(2017, 2, 13, 5),
+        startDate: new Date(2017, 2, 13, 3)
     ];
 
     var agendaView = new Y.SchedulerAgendaView();
