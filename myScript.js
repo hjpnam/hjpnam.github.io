@@ -10,12 +10,12 @@ YUI().use(
     var eventRecorder = new Y.SchedulerEventRecorder();
     var monthView = new Y.SchedulerMonthView();
     var weekView = new Y.SchedulerWeekView();
-
+    
     new Y.Scheduler(
       {
         activeView: weekView,
         boundingBox: '#myScheduler',
-        date: new Date(2017, 2, 13),
+        date: new Date(),
         eventRecorder: eventRecorder,
         items: events,
         render: true,
