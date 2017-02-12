@@ -2,3 +2,7 @@
   font-family: Verdana, sans-serif;
   font-size: 2em;
 }
+
+#dashboard {
+  width: 80%;
+}
