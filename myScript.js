@@ -2,13 +2,7 @@ YUI().use(
   'aui-scheduler',
   function(Y) {
     var events = [
-      {
-        content: 'Meeting',
-        endDate: new Date(2016, 2, 15, 7),
-        meeting: true,
-        startDate: new Date(2016, 2, 15, 3)
-       
-      }
+     
     ];
 
     var agendaView = new Y.SchedulerAgendaView();
