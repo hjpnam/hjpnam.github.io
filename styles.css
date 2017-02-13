@@ -24,3 +24,21 @@
 .btn-link {
   color: #ffffff;
 }
+
+#tip {
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+}
+
+#John {
+	width: 40%;
+}
+
+#YourContacts {
+	padding-bottom: 1.35em;
+}
+
+#contacts {
+	background-color: #f7f7f7;
+	
+}
