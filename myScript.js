@@ -2,12 +2,12 @@ YUI().use(
     'aui-scheduler',
     function(Y) {
     var events = [
-        
+
     ];
     var eventRecorder = new Y.SchedulerEventRecorder();
     var dayView = new Y.SchedulerDayView();
     var agendaView = new Y.SchedulerAgendaView();
-    var monthView = new Y.SchedulerMonthView();
+    var monthView = new Y.SchedulerMonthView();	
     var weekView = new Y.SchedulerWeekView();
     
     new Y.Scheduler(
@@ -23,3 +23,11 @@ YUI().use(
     );
   }
 );
+
+bootcards.init( {
+  offCanvasBackdrop : true,
+  offCanvasHideOnMainClick : true,
+  enableTabletPortraitMode : true,
+  disableRubberBanding : true,
+  disableBreakoutSelector : 'a.no-break-out'
+});
