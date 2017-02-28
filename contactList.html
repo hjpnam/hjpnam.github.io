@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>AngularJS contact list</title>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	  <meta charset="UTF-8">
+	  <title>TouchBase</title>
 
-  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-
-  
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>  
   
 </head>
 
 <body>
-    <div class="global-wrapper" ng-app="myApp">
+    	<div class="global-wrapper" ng-app="myApp">
 
-  <!-- nav section -->
-  <nav class="navbar navbar-default" ng-controller="navCtrl">
-    <div class="container-fluid">
-      <div class="nav-header">
-        <ul class="nav navbar-nav">
-          <li ng-repeat="navLink in nav.navItems" ng-class="{active : $index === nav.selectedIndex}">
-            <a class="text-center" ng-click="nav.navClick($index)" ng-href="#/{{navLink}}">{{navLink}}</a>
-          </li>
-        </ul>
-    	</div>
-    </div>
-  </nav>
-    
+	  <!-- nav section -->
+	<nav class="navbar navbar-default" ng-controller="navCtrl">
+		<div class="container-fluid">
+	      	<div class="nav-header">
+		<ul class="nav navbar-nav">
+			<li ng-repeat="navLink in nav.navItems" ng-class="{active : $index === nav.selectedIndex}">
+		    		<a class="text-center" ng-click="nav.navClick($index)" ng-href="#/{{navLink}}">{{navLink}}</a>
+		  	</li>
+		</ul>
+		</div>
+	    </div>
+	  </nav>
+
   <div class="container">
     <div class="row panel panel-primary" ng-controller="homeCtrl">
       <div class="panel-heading">
@@ -136,7 +133,7 @@
   <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js'></script>
 <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js'></script>
 
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
