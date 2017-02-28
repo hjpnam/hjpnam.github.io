@@ -24,3 +24,7 @@ YUI().use(
 		);
 	}
 )
+
+function goToURL(val){
+	location.href = val; 
+}
