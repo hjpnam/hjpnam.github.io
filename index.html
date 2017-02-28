@@ -31,23 +31,23 @@
 				<div class="global-wrapper" ng-app="myApp">
 
 			  <!-- nav section -->
-			  <nav class="navbar navbar-default" ng-controller="navCtrl">
-			    <div class="container-fluid">
-			      <div class="nav-header">
-				<ul class="nav navbar-nav">
-				  <li ng-repeat="navLink in nav.navItems" ng-class="{active : $index === nav.selectedIndex}">
-				    <a class="text-center" ng-click="nav.navClick($index)" ng-href="#/{{navLink}}">{{navLink}}</a>
-				  </li>
-				</ul>
-				</div>
-			    </div>
-			  </nav>
+			  	<nav class="navbar navbar-default" ng-controller="navCtrl">
+					<div class="container-fluid">
+					<div class="nav-header">
+						<ul class="nav navbar-nav">
+						<li ng-repeat="navLink in nav.navItems" ng-class="{active : $index === nav.selectedIndex}">
+							<a class="text-center" ng-click="nav.navClick($index)" ng-href="#/{{navLink}}">{{navLink}}</a>
+						 </li>
+						</ul>
+					</div>
+					</div>
+			  	</nav>
 
-			  <div class="container">
-			    <div class="row panel panel-primary" ng-controller="homeCtrl">
-			      <div class="panel-heading">
-				<h2 class="panel-title">Contact list</h2>
-			      </div>
+			  	<div class="container">
+			  	  <div class="row panel panel-primary" ng-controller="homeCtrl">
+			    	  <div class="panel-heading">
+					<h2 class="panel-title">Contact list</h2>
+			     	 </div>
 
 
 			      <!--     contact list   	 -->
@@ -151,22 +151,19 @@
 			  <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js'></script>
 			<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js'></script>
 
-			    <script src="js/index.js"></script>
+			<script src="js/index.js"></script>
 				
 			</div>
 					
 			
 			<div id="myScheduler" class="col-md-5"></div>
 		</div>
-		<div class="container" id="tips">
-			<p id="tip">*Click and drag on calendar to add and edit your schedule.</p>
-			<p id="tip">If the calendar doesn't appear, please allow the page to load the script.</p>
-		
-		</div>
-	</div >
+	</div>
+	<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js'></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js'></script>
+	<script src="js/index.js"></script>
 	<script src="http://cdn.alloyui.com/3.0.1/aui/aui-min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js"></script>
 	<script src="myScript.js"></script>
 </body>
 </html>
