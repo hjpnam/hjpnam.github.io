@@ -5,11 +5,27 @@
 	  <title>TouchBase</title>
 
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>  
+	  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+	  <link rel="stylesheet" href="styles.css">
   
 </head>
 
 <body>
+	<div class="nav">
+		<div class="container" id="menubar">
+			<h1>TouchBase</h1>
+			<div class="pull-left">
+				<button type="button" class="btn-link" onclick="javascript:goToURL('contactList.html')">Contact List</button>
+				<button type="button" class="btn-link" onclick="javascript:goToURL('scheduler.html')">Schedule an Event</button>
+			</div>
+			<div class="pull-right">
+				<button type="button" class="btn-link">Manage Profile</button>
+				<button type="button" class="btn-link">Log Out</button>
+				<button type="button" class="btn-link">Help</button>
+			</div>
+		</div>
+	</div>
+	
     	<div class="global-wrapper" ng-app="myApp">
 
 	  <!-- nav section -->
