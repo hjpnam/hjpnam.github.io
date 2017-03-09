@@ -16,6 +16,10 @@
   color: #ffffff;
 }
 
+#Add {
+	margin: auto;
+	width: 4em;
+}
 
 #dashboard {
   width: 70%;
